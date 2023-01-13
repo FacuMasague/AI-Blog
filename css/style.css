@@ -29,10 +29,12 @@
         color: white;
         font-size: 2.5rem;
         font-family: Roboto;
+        text-transform: uppercase;
         margin-bottom: 10px; }
       .main .main_body header h3 {
         color: white;
-        font-family: Roboto; }
+        font-family: Roboto;
+        text-transform: uppercase; }
     .main .main_body footer {
       display: flex;
       flex-direction: row;
@@ -49,10 +51,15 @@
   .main .main_destinations {
     width: 1150px; }
     .main .main_destinations ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      height: 600px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
       list-style: none; }
-      .main .main_destinations ul li a img {
-        width: 350px; }
+      .main .main_destinations ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .main .main_destinations ul li a img {
+          border-radius: 1rem;
+          width: 400px; }
