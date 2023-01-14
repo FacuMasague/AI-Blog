@@ -69,17 +69,13 @@
         }
     }
     .main_destinations{
-        width: 1150px;
         ul{
-            height: 600px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            height: 300px;
             list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             li{
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 a{
                     img{
                         border-radius: .75rem;

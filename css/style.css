@@ -63,21 +63,15 @@
         transition: 0.3s; }
       .main .main_body footer .byChatGPT:hover::after {
         width: 140px; }
-  .main .main_destinations {
-    width: 1150px; }
-    .main .main_destinations ul {
-      height: 600px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      list-style: none; }
-      .main .main_destinations ul li {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .main .main_destinations ul li a img {
-          border-radius: .75rem;
-          width: 400px;
-          transition: 0.5s; }
-          .main .main_destinations ul li a img:hover {
-            width: 425px; }
+  .main .main_destinations ul {
+    height: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main .main_destinations ul li a img {
+      border-radius: .75rem;
+      width: 400px;
+      transition: 0.5s; }
+      .main .main_destinations ul li a img:hover {
+        width: 425px; }
