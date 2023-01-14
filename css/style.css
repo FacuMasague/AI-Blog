@@ -68,10 +68,24 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    flex-wrap: wrap; }
     .main .main_destinations ul li a img {
       border-radius: .75rem;
       width: 400px;
       transition: 0.5s; }
       .main .main_destinations ul li a img:hover {
         width: 425px; }
+
+@media (max-width: 1120px) {
+  .main .main_body {
+    width: 900px;
+    background-image: url(../assets/main_background2.png); } }
+
+@media (max-width: 900px) {
+  .main .main_body {
+    width: 700px; } }
+
+@media (max-width: 810px) {
+  .main .main_destinations ul li a img {
+    width: 450px; } }

@@ -1,0 +1,32 @@
+@media (max-width: 1120px){
+    .main{
+        .main_body{
+            width: 900px;
+            background-image: url(../assets/main_background2.png);
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .main{
+        .main_body{
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 810px){
+    .main{
+        .main_destinations{
+            ul{
+                li{
+                    a{
+                        img{
+                            width: 450px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
